@@ -8,6 +8,8 @@ This is a ReactJS
 
 Details: This is used to mark your schedule.
 
+Technologies Used: HTML, CSS, JavaScript and ReactJS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
