@@ -1,5 +1,12 @@
 Name: Rashad Humphrey
 
+Overview/description of the project:
+
+This is a ReactJS 
+
+"To Do List" with add and clear button.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
