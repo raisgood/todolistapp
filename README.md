@@ -67,6 +67,12 @@ console.log(listMenu(todo));
 
 List of Actions:
 
+import { ADD_TABLE_ITEM } from "../constants/constants.js";
+
+const addTableItem = (name, price, id) => {
+  return {
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
