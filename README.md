@@ -10,6 +10,15 @@ Details: This is used to mark your schedule.
 
 Technologies Used: HTML, CSS, JavaScript and ReactJS.
 
+Ideas for future improvements: 
+
+1) Add additional JavaScript to the site. 
+
+2) Implement multiple pages together.
+
+3) Add a time feature to the page.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
