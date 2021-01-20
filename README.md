@@ -22,6 +22,51 @@ State and Component Planning:
 
 Project 3 State Tree:
 
+Link:https://repl.it/@RashadHumphrey1/Project-3-State-tree
+
+(Code):
+
+const todo = [
+{ name: "Name1", symbol: "Gym"},
+{ name: "Name2", symbol: "Shop"},
+{ name: "Name3", symbol: "Study"},
+{ name: "Name4", symbol: "Sleep"}
+];
+
+function listMenu([
+  {name: name1, symbol: symbol1},
+  {name: name2, symbol: symbol2},
+  {name: name3, symbol: symbol3},
+  {name: name4, symbol: symbol4}
+]) {
+  //if symbol1 and symbol2 are the same, then return "Booked!"
+  if(symbol1 == symbol2) {
+      return "Booked!";
+  }
+     
+  //if symbol1: "Gym" and symbol2: "Shop": return P1
+  //if symbol1: "Stop" and symbol2: "Study": return P1
+  //if symbol1: "Study" and symbol2: "Sleep": return P1
+  const menuList = ['Gym=Shop', 'Shop=Study', 'Study=Sleep'].includes('${symbol1}>${symbol2}');
+
+// Both solutions work, you can use TodoList or MenuList interchangibly
+const todoList = 
+(symbol1 === "Guy" && symbol2 === "Shop") ||
+(symbol1 === "Shop" && symbol2 === "Study") ||
+(symbol1 === "Study" && symbol2 === "Sleep");
+
+  if (menuList) {
+    return '${name1} Booked!';
+  }
+
+   //P2 wins (return P2)
+      return '${name2} Booked!';
+}
+
+console.log(listMenu(todo));
+
+List of Actions:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
