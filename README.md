@@ -1,6 +1,6 @@
 Name: Rashad Humphrey
 
-Overview/description of the project
+Overview/description of the project:
 
 This is a ReactJS 
 
