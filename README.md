@@ -6,6 +6,7 @@ This is a ReactJS
 
 "To Do List" with add and clear button.
 
+Details: This is used to mark your schedule.
 
 # Getting Started with Create React App
 
