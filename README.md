@@ -83,6 +83,18 @@ const addTableItem = (name, price, id) => {
 
 export default addTableItem;
 
+List of Container and Presentational Components:
+
+Container-
+ <div class="w3-container w3-teal">
+  <h1>Header</h1>
+</div>
+
+Presentational Components- 
+Todo.jsx
+App.js
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
