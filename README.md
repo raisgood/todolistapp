@@ -18,6 +18,7 @@ Ideas for future improvements:
 
 3) Add a time feature to the page.
 
+State and Component Planning:
 
 # Getting Started with Create React App
 
